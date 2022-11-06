@@ -1,9 +1,6 @@
 package org.example.dp;
 
-public class NoCard implements ATMState {
-
-    //context
-    ATMMachine atmMachine;
+public class NoCard extends ATMState {
 
     public NoCard(ATMMachine newATMMachine){
         atmMachine = newATMMachine;

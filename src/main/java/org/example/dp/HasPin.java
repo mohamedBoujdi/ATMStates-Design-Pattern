@@ -1,8 +1,6 @@
 package org.example.dp;
 
-public class HasPin implements ATMState {
-   //context
-    ATMMachine atmMachine;
+public class HasPin extends ATMState {
 
     public HasPin(ATMMachine newATMMachine){
         atmMachine = newATMMachine;

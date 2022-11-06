@@ -241,7 +241,7 @@ the benifits of using state design pattern:
 #### 2. state design pattern (in case of this project)
 
 + context: `ATM`  [ :link: ](https://github.com/mohamedBoujdi/ATMStates-Design-Pattern/blob/main/src/main/java/org/example/dp/ATMMachine.java)machine
-+ state interface: `ATMState`[:link:](https://github.com/mohamedBoujdi/ATMStates-Design-Pattern/blob/main/src/main/java/org/example/dp/ATMState.java) interface
++ state interface( or abstract class): `ATMState`[:link:](https://github.com/mohamedBoujdi/ATMStates-Design-Pattern/blob/main/src/main/java/org/example/dp/ATMState.java) interface
 + concrete state: `NoCard` [:link:](https://github.com/mohamedBoujdi/ATMStates-Design-Pattern/blob/main/src/main/java/org/example/dp/NoCard.java), `HasCard`[:link:](https://github.com/mohamedBoujdi/ATMStates-Design-Pattern/blob/main/src/main/java/org/example/dp/HasCash.java), `HasPin`[:link:](https://github.com/mohamedBoujdi/ATMStates-Design-Pattern/blob/main/src/main/java/org/example/dp/HasPin.java), `NoCash`[:link:](https://github.com/mohamedBoujdi/ATMStates-Design-Pattern/blob/main/src/main/java/org/example/dp/NoCash.java)
 
 

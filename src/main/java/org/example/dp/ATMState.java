@@ -1,7 +1,10 @@
 package org.example.dp;
-public interface ATMState {
-    void insertCard();
-    void ejectCard();
-    void insertPin(int pinEntered);
-    void requestCash(int cashToWithdraw);
+public abstract class ATMState {
+    //context
+    ATMMachine atmMachine;
+
+    abstract void insertCard();
+    abstract void ejectCard();
+    abstract void insertPin(int pinEntered);
+    abstract void requestCash(int cashToWithdraw);
 }
