@@ -235,7 +235,9 @@ Fan is off
 the benifits of using state design pattern:
 - we can add new states without changing the existing code.
 - we can add new behaviors to the states without changing the existing code.
-- for principle of open/closed.
+- for principle of open/closed and single responsibility.
+- application is more flexible and extensible.
+
 </details>
 
 #### 2. state design pattern (in case of this project)
